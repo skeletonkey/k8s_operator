@@ -17,7 +17,6 @@ These requirements are adapted and stolen from [Demystifying Kubernetes Operator
 * [microk8s](https://microk8s.io/#get-started)
   * Some have reported a conflict with `minikube`, however, I haven't run into this.
 
-
 ### Alias
 
 **All examples assume you have done this!!!**
@@ -27,6 +26,10 @@ It is recommend that in a shell that you create the following alias:
 alias kubectl="microk8s kubectl"
 ```
 Please do *not* create this as a default (part of your .profile or .bashrc) since you will probably need `kubectl` for other work and this alias will bite you in the butt.
+
+### Sandbox
+
+[Sandbox Readme](sandbox/README.md)
 
 ## K8s REST Interface
 
