@@ -40,5 +40,34 @@ The user is `admin`.
 
 The password is plain text.
 
+## References
 
+* [What is a K8s operator](https://www.bmc.com/blogs/kubernetes-operator/)
 
+### Best Practices
+
+ * [Best practices for building K8s Operators and stateful apps](https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-building-kubernetes-operators-and-stateful-apps)
+ * [Taking a Kubernetes Operator to Production](https://itnext.io/taking-a-kubernetes-operator-to-production-bc59708db420)
+
+### Misc
+
+ * [K8s Standardized Glossary](https://kubernetes.io/docs/reference/glossary/?all=true)
+ 
+### SDKs
+
+ * [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)
+    * [Kubebuilder Book](https://book.kubebuilder.io/)
+ * [K8s Universal Declarative Operator (KUDO)](https://kudo.dev/)
+ * [Operator Framework](https://github.com/operator-framework/getting-started)
+    * used to create the sandbox
+
+#### Non-SDK
+
+If the SDKs do not provide enough fine control feel free to take a look at [ClientGo](https://github.com/kubernetes/client-go)
+    
+### Testing
+
+#### Ginkgo
+
+An article about [Ginkgo - A Golan BDD Testing Framework](https://itnext.io/testing-kubernetes-operators-with-ginkgo-gomega-and-the-operator-runtime-6ad4c2492379)
+[Ginkgo's repo](https://github.com/onsi/ginkgo)
