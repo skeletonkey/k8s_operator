@@ -51,6 +51,7 @@ The password is plain text.
 
 ### Misc
 
+ * [K8s Imperative vs Declarative](https://kubernetes.io/docs/concepts/overview/working-with-objects/object-management/)
  * [K8s Standardized Glossary](https://kubernetes.io/docs/reference/glossary/?all=true)
  
 ### SDKs
