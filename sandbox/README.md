@@ -1,6 +1,7 @@
 # Sandbox
 
-This example and sandbox uses [kubebuilder](https://kubebuilder.io/)
+This example and sandbox uses [Operator Framework](https://github.com/operator-framework/getting-started)
+
 
 This sandbox was built on a Ubuntu Linux box, however, if you follow the step below you should be able  recreate thing on an OS - given that the requirements have been installed (see main [README.md](https://github.com/skeletonkey/k8s_operator))
 
